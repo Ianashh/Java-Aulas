@@ -9,7 +9,6 @@ public static void main(String[] args) {
 }
 static void sum (int number1, int number2) {
 
-    System.out.println("\nA soma dos numeros "+ number1 +" e " + number2 + " é igual a "+ number1+number2 +" !!");
-
+    System.out.println("\nA soma dos numeros "+ number1 +" e " + number2 + " é igual a "+ (number1+number2) +" !!");
     }
 }
