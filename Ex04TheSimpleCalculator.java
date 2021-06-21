@@ -66,21 +66,6 @@ System.out.printf("Olá Mundo!!%nEste é um novo programa de cálculo simples qu
                 }
     
 keyboard.close();    
+System.out.print("FIM\n");
 }
 }
-//static void sum(int n1, int n2) {
-//    System.out.println("\nA soma dos numeros "+ n1 +" e " + n2 + " é igual a "+ (n1+n2) +" !!");
-//}
-//static void minus(int x, int y) {
-//    System.out.println("\nA subtração do numeros "+ x +" por " + y + " é igual a "+ (x-y) +" !!");
-//}
-//static void multiply(int x, int y) {
-//    System.out.println("\nA multiplicação do numeros "+ x +" por " + y + " é igual a "+ (x*y) +" !!");
-//}   
-//static void divide(int x, int y) {
-//    System.out.println("\nA divisão do numero "+ x +" por " + y + " é igual a "+ (x/y) +" !!");
-//}
-
-
-
-
