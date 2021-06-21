@@ -16,11 +16,11 @@ System.out.printf("Olá Mundo!!%nEste é um novo programa de cálculo simples qu
     languages = keyboard.nextInt();
     
         if (languages == 1){
-            System.out.print("Press the first number to calculate: ");
+            System.out.print("\nPress the first number to calculate: ");
             n1  = keyboard.nextInt();
-            System.out.print("Press the second number to calculate: ");
+            System.out.print("\nPress the second number to calculate: ");
             n2  = keyboard.nextInt();
-            System.out.print("[+] For Sum Press +\n[-] For Minus Press -\n[*] For Multiply Press *\n[/] For Divide Press /\n[f] For finish this program press f \n---> : ");
+            System.out.print("\n[+] For Sum Press +\n[-] For Minus Press -\n[*] For Multiply Press *\n[/] For Divide Press /\n[f] For Finish this program press f \n---> : ");
             calc = keyboard.next();
             
             }
@@ -42,11 +42,11 @@ System.out.printf("Olá Mundo!!%nEste é um novo programa de cálculo simples qu
             }
         
         else if (languages == 2){
-            System.out.print("Digite o primeiro número: ");
+            System.out.print("\nDigite o primeiro número: ");
             n1  = keyboard.nextInt();
-            System.out.print("Digite o primeiro número: ");
+            System.out.print("\nDigite o segundo número: ");
             n2  = keyboard.nextInt();
-            System.out.print("[+] Para Somar digite +\n[-] Para Subtrair digite -\n[*] Para Multiplicar digite *\n[/] Para dividir digite /\n[f] Para Finalizar o programa digite f \n---> :");
+            System.out.print("\n[+] Para Somar digite +\n[-] Para Subtrair digite -\n[*] Para Multiplicar digite *\n[/] Para Dividir digite /\n[f] Para Finalizar o programa digite f \n---> :");
             calc = keyboard.next();        
             if (calc.equals("+")){
                 System.out.println("\nA soma dos números "+ n1 +" e " + n2 + " é igual a "+ (n1+n2) +" !!\n");
