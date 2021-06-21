@@ -66,6 +66,7 @@ System.out.printf("Olá Mundo!!%nEste é um novo programa de cálculo simples qu
                 }
     
 keyboard.close();    
-System.out.print("FIM\n");
+System.out.print("The END\n\n");
+System.out.print("FIM\n\n");
 }
 }
