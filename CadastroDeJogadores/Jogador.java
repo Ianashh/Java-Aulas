@@ -16,9 +16,9 @@ public class Jogador {
 
     for (n=1; n < jogadores+1 ; n++){
     System.out.printf("\nCadastre o nome do jogador %d: ",n);
-    firstname = input.next();
+    firstname = input.next().trim().toUpperCase();
     System.out.printf("\nCadastre o último nome do jogador %d: ",n);
-    lastname = input.next();
+    lastname = input.next().trim().toUpperCase();
     System.out.printf("\nCadastre o número da camiseta do jogador %d: ",n);
     shirt = input.nextInt();
     System.out.printf("\n\nO jogador %s %s foi criado com sucesso!!\nSua camisa é a número %d\n\n", firstname,lastname,shirt);
