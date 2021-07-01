@@ -17,10 +17,11 @@ public class Jogador {
     private String Sexo = "Masculino";
 
     public Jogador(){
+    }
+    public void Cadastro(){
     Scanner input = new Scanner(System.in);
     System.out.print("Quantos jogadores deseja criar: ");
     jogadores = input.nextInt();
-
     for (n=1; n < jogadores+1 ; n++){
     System.out.printf("\nCadastre o nome do jogador 0%d: ",n);
     firstname.add(input.next().trim().toUpperCase());
@@ -33,6 +34,8 @@ public class Jogador {
     }
     input.close();
     }
+    
+
     public void status(){
         for (c=0; c < jogadores ; c++){
         System.out.printf("\nNome do jogador: %s %s", firstname.get(c), this.lastname);
